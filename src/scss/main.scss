@@ -1,0 +1,10 @@
+@import "normalize";
+@import "reset";
+@import "settings/fonts";
+@import "settings/colors";
+@import "settings/variables";
+
+body {
+  font-family: $font-base;
+  background-color: tomato;
+}
