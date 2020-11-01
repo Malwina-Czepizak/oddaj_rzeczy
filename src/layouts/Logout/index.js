@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Home() {
+function Logout() {
     return (
         <div>
-            <h1>Home Page</h1>
+            <h1>Wylogowano</h1>
         </div>
     );
 }
 
-export default Home;
+export default Logout;

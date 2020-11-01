@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Home() {
+function Form() {
     return (
         <div>
-            <h1>Home Page</h1>
+            <h1>Formularz</h1>
         </div>
     );
 }
 
-export default Home;
+export default Form;

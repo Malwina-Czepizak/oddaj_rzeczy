@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Home() {
+function Register() {
     return (
         <div>
-            <h1>Home Page</h1>
+            <h1>Rejestracja</h1>
         </div>
     );
 }
 
-export default Home;
+export default Register;
