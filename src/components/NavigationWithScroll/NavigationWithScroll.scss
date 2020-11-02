@@ -1,0 +1,21 @@
+.navigation {
+  margin: 1rem 1.8rem;
+}
+
+.navigation__top {
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation__bottom {
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+span {
+  display: inline-block;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
