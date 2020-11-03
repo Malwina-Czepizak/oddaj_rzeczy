@@ -11,11 +11,11 @@ function Navigation() {
                 <span><Link to="/rejestracja">Załóż konto</Link></span>
             </div>
             <div className="navigation__bottom">
-                <span><ScrollLink to="start">Start</ScrollLink></span>
-                <span><ScrollLink to="instruction">O co chodzi?</ScrollLink></span>
-                <span><ScrollLink to="about">O nas</ScrollLink></span>
-                <span><ScrollLink to="collabs">Fundacja i organizacje</ScrollLink></span>
-                <span><ScrollLink to="contact">Kontakt</ScrollLink></span>
+                <span><ScrollLink to="start" duration={1000} smooth={true}>Start</ScrollLink></span>
+                <span><ScrollLink to="instruction" duration={1000} smooth={true}>O co chodzi?</ScrollLink></span>
+                <span><ScrollLink to="about" duration={1000} smooth={true}>O nas</ScrollLink></span>
+                <span><ScrollLink to="collabs" duration={1000} smooth={true}>Fundacja i organizacje</ScrollLink></span>
+                <span><ScrollLink to="contact" duration={1000} smooth={true}>Kontakt</ScrollLink></span>
             </div>
         </div>
     );
