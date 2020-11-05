@@ -1,0 +1,132 @@
+{
+  "collaboration": [
+    {
+      "name":"Fundacjom",
+      "desc":"W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.",
+      "items": [
+        {
+          "id": 1,
+          "header":"Fundacja “Dbam o Zdrowie”",
+          "subheader":"Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+          "desc":"ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+        },
+        {
+          "id": 2,
+          "header":"Fundacja “Dla dzieci”",
+          "subheader":"Cel i misja: Pomoc dzieciom z ubogich rodzin.",
+          "desc":"ubrania, meble, zabawki"
+        },
+        {
+          "id": 3,
+          "header":"Fundacja “Bez domu”",
+          "subheader":"Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+          "desc":"ubrania, jedzenie, ciepłe koce"
+        },
+        {
+          "id": 4,
+          "header":"Fundacja “Lorem Ipsum 4”",
+          "subheader":"Quis varius quam quisque id diam vel quam elementum pulvinar.",
+          "desc":"Egestas, sed, tempus"
+        },
+        {
+          "id": 5,
+          "header":"Fundacja “Lorem Ipsum 5”",
+          "subheader":"Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+          "desc":"Ut, aliquam, purus, sit, amet"
+        },
+        {
+          "id": 6,
+          "header":"Fundacja “Lorem Ipsum 6”",
+          "subheader":"Scelerisque in dictum non consectetur a erat nam.",
+          "desc":"Mi, quis, hendrerit, dolor"
+        },
+        {
+          "id": 7,
+          "header":"Fundacja “Lorem Ipsum 7”",
+          "subheader":"to jest subheader",
+          "desc":"to jest desc"
+        },
+        {
+          "id": 8,
+          "header":"Fundacja “Lorem Ipsum 8”",
+          "subheader":"Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+          "desc":"Ut, aliquam, purus, sit, amet"
+        },
+        {
+          "id": 9,
+          "header":"Fundacja “Lorem Ipsum 9”",
+          "subheader":"Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+          "desc":"Ut, aliquam, purus, sit, amet"
+        }
+      ]
+    },
+
+    {
+      "name":"Organizacjom",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "items": [
+        {
+          "id": 1,
+          "header":"Organizacja “Lorem Ipsum 1”",
+          "subheader":"Quis varius quam quisque id diam vel quam elementum pulvinar.",
+          "desc":"Egestas, sed, tempus"
+        },
+        {
+          "id": 2,
+          "header":"Organizacja “Lorem Ipsum 2”",
+          "subheader":"Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+          "desc":"Ut, aliquam, purus, sit, amet"
+        },
+        {
+          "id": 3,
+          "header":"Organizacja “Lorem Ipsum 3”",
+          "subheader":"Scelerisque in dictum non consectetur a erat nam.",
+          "desc":"Mi, quis, hendrerit, dolor"
+        },
+        {
+          "id": 4,
+          "header":"Organizacja “Lorem Ipsum 4”",
+          "subheader":"Quis varius quam quisque id diam vel quam elementum pulvinar.",
+          "desc":"Egestas, sed, tempus"
+        },
+        {
+          "id": 5,
+          "header":"Organizacja “Lorem Ipsum 5”",
+          "subheader":"Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+          "desc":"Ut, aliquam, purus, sit, amet"
+        },
+        {
+          "id": 6,
+          "header":"Organizacja “Lorem Ipsum 6”",
+          "subheader":"Scelerisque in dictum non consectetur a erat nam.",
+          "desc":"Mi, quis, hendrerit, dolor"
+        }
+      ]
+    },
+
+    {
+      "name":"Lokalnym zbiórkom",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "items": [
+        {
+          "id": 1,
+          "header":"Zbiórka “Lorem Ipsum 1”",
+          "subheader":"Quis varius quam quisque id diam vel quam elementum pulvinar.",
+          "desc":"Egestas, sed, tempus"
+        },
+        {
+          "id": 2,
+          "header":"Zbiórka “Lorem Ipsum 2”",
+          "subheader":"Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+          "desc":"Ut, aliquam, purus, sit, amet"
+        },
+        {
+          "id": 3,
+          "header":"Zbiórka “Lorem Ipsum 3”",
+          "subheader":"Scelerisque in dictum non consectetur a erat nam.",
+          "desc":"Mi, quis, hendrerit, dolor"
+        }
+      ]
+    }
+  ]
+}
