@@ -16,7 +16,8 @@
   }
   p {
     font-size: 22px;
-    padding: 1rem 10rem;
+    padding: 1rem;
+    width: 50%;
   }
 }
 
@@ -37,4 +38,52 @@
 
 .home__collabs__organizations {
   height: 50%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  ul {
+    width: 100%;
+  }
+  .home__collabs__item:nth-child(2) {
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;;
+  }
+  .home__collabs__item {
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .home__collabs__name {
+      text-align: left;
+      font-size: 26px;
+      .home__collabs__subheader {
+        margin: 0;
+        font-size: 18px;
+        //font-family: Merriweather;
+        //font-style: italic;
+      }
+    }
+    .home__collabs__desc {
+      font-size: 18px;
+      //font-family: Merriweather;
+      color: #3C3C3C;
+      text-align: right;
+    }
+  }
+  .home__collabs__pages {
+    padding-top: 2rem;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  .page {
+    padding: 1rem;
+    border: 0.75px solid white;
+    &:hover {
+      cursor: pointer;
+      border-color: black;
+    }
+  }
 }

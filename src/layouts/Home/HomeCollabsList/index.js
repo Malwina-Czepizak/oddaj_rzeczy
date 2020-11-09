@@ -7,6 +7,7 @@ function HomeCollabsList() {
     const [dataIndex, setDataIndex] = useState(0);
     const [currentPage, setCurrentPage] = useState(1);
     const [paginationButtons, setPaginationButtons] = useState([]);
+    const [showPaginationButtons, setShowPaginationButtons] = useState(false);
     const [currentData, setCurrentData] = useState(false);
 
     useEffect(() => {
@@ -38,13 +39,19 @@ function HomeCollabsList() {
 
             const pageNumbers = [];
             for (let i = 1; i <= Math.ceil(data[dataIndex].items.length/dataPerPage); i++) {
-                pageNumbers.push(<li key={i} onClick={e => handlePageClick(e, i)}> {i} </li>);
+                pageNumbers.push(<li key={i} className="page" onClick={e => handlePageClick(e, i)}> {i} </li>);
             }
             setPaginationButtons(pageNumbers);
         }
-
     }, [data, currentPage, dataIndex]);
 
+    useEffect(() => {
+        if (paginationButtons.length === 1) {
+            setShowPaginationButtons(false);
+        } else {
+            setShowPaginationButtons(true);
+        }
+    }, [dataIndex, paginationButtons]);
 
     return (
         <section name="collabs" className="home__collabs">
@@ -64,15 +71,18 @@ function HomeCollabsList() {
                  <ul>
                      {currentData &&
                      currentData.map((data, i) =>
-                        <li key={i}>
-                            <span>{data.header}</span>
-                            <span>{data.subheader}</span>
-                            <span>{data.desc}</span>
+                        <li key={i} className="home__collabs__item">
+                            <p className="home__collabs__name">
+                                {data.header} <br />
+                                <span className="home__collabs__subheader">{data.subheader}</span>
+                            </p>
+                            <p className="home__collabs__desc">{data.desc}</p>
                         </li>)
                      }
                  </ul>
-                 <ul>
-                     {paginationButtons}
+                 <ul className="home__collabs__pages">
+                     {showPaginationButtons &&
+                     paginationButtons}
                  </ul>
             </div>
         </section>
