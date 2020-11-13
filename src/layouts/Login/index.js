@@ -1,9 +1,11 @@
 import React from 'react';
+import "./Login.scss";
+import NavigationWithHashLink from "../../components/NavigationWithHashLink";
 
 function Login() {
     return (
-        <div>
-            <h1>Logowanie</h1>
+        <div className="login">
+            <NavigationWithHashLink />
         </div>
     );
 }

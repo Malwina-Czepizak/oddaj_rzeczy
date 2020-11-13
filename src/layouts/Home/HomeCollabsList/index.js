@@ -54,7 +54,7 @@ function HomeCollabsList() {
     }, [dataIndex, paginationButtons]);
 
     return (
-        <section name="collabs" className="home__collabs">
+        <section name="collabs" className="home__collabs" id="collabs">
             <div className="home__collabs__text__container">
                 <h2>Komu pomagamy?</h2>
                 <img src={decorator} alt="decoration"/>

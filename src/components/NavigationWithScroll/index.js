@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import {Link as ScrollLink} from "react-scroll";
 import "./NavigationWithScroll.scss";
 
-function Navigation() {
+function NavigationWithScroll() {
     return (
         <div className="navigation">
             <div className="navigation__top">
@@ -21,5 +21,5 @@ function Navigation() {
     );
 }
 
-export default Navigation;
+export default NavigationWithScroll;
 

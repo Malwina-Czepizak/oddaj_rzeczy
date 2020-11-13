@@ -75,7 +75,7 @@ function ContactForm() {
     };
 
     return (
-        <section name="contact" className="contact">
+        <section name="contact" className="contact" id="contact">
             <form onSubmit={sendMessage}>
                 <h3>Skontaktuj się z nami</h3>
                 <img src={decorator} alt="decoration"/>

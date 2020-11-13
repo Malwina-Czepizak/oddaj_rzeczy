@@ -1,15 +1,15 @@
 import React from 'react';
-import Navigation from "../../../components/NavigationWithScroll";
+import NavigationWithScroll from "../../../components/NavigationWithScroll";
 import "./HomeHeader.scss";
 import {GiveThingsBtn, ArrangeDonationBtn} from "../../../components/DonateBtn";
 import decorator from "../../../assets/Decoration.svg"
 
 function HomeHeader() {
     return (
-        <div className="home__header">
+        <div className="home__header" id="start">
             <div className="home__header__background" />
             <div className="home__header__container">
-                <Navigation />
+                <NavigationWithScroll />
                 <div className="home__header__introduction">
                     <p>Zacznij pomagać!</p>
                     <p>Oddaj niechciane rzeczy w zaufane ręce</p>

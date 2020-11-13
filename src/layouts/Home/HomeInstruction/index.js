@@ -10,7 +10,7 @@ import {GiveThingsBtn} from "../../../components/DonateBtn";
 
 function HomeInstruction() {
     return (
-        <section name="instruction" className="home__instruction">
+        <section name="instruction" className="home__instruction" id="instruction">
             <div className="home__instruction__header">
                 <h2>Wystarczą 4 proste kroki</h2>
                 <img src={decorator} alt="decoration"/>

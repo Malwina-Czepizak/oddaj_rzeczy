@@ -5,7 +5,7 @@ import signature from "../../../assets/Signature.svg"
 
 function HomeAbout() {
     return (
-        <section name="about" className="home__about">
+        <section name="about" className="home__about" id="about">
             <div className="home__about__text">
                 <h2>O nas</h2>
                 <img src={decorator} alt="decoration"/>
