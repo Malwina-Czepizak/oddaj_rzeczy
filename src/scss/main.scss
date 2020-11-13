@@ -12,8 +12,13 @@ section {
   height: 80vh;
 }
 
-button {
+button, input, textarea {
   &:focus, &:hover {
     outline: none;
   }
+}
+
+input, textarea {
+  border: none;
+  background: none;
 }
