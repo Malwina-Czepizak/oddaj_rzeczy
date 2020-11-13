@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import "./ContactForm.scss";
 import decorator from "../../assets/Decoration.svg";
+import Footer from "../Footer";
 
 function ContactForm() {
     const [name, setName] = useState("");
@@ -11,14 +12,6 @@ function ContactForm() {
     const [emailError, setEmailError] = useState("");
     const [messageError, setMessageError] = useState("");
     const [newClass, setNewClass] = useState("");
-
-    // function validateEmail(email)
-    // {
-    //     const re = /\S+@\S+\.\S+/;
-    //     return re.test(email);
-    // }
-    //
-    // console.log(validateEmail(''));
 
     const sendMessage = e => {
         e.preventDefault();
@@ -133,6 +126,7 @@ function ContactForm() {
                 </div>
                 <button type="submit">Wyślij</button>
             </form>
+            <Footer />
         </section>
     );
 }

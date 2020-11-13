@@ -1,0 +1,23 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1em;
+
+  p {
+    font-size: 18px;
+    color: #3C3C3C;
+  }
+}
+
+.social__icons {
+  position: absolute;
+  bottom: 0;
+  padding: 1em 0;
+  margin-right: 10%;
+
+  img {
+  margin:0;
+    padding-left:1em;
+  }
+}

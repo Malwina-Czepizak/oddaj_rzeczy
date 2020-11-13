@@ -5,7 +5,6 @@ import HomeAbout from "./HomeAbout";
 import HomeInstruction from "./HomeInstruction";
 import HomeCollabsList from "./HomeCollabsList";
 import ContactForm from "../../components/ContactForm";
-import Footer from "../../components/Footer";
 
 function Home() {
     return (
@@ -16,7 +15,6 @@ function Home() {
             <HomeAbout />
             <HomeCollabsList />
             <ContactForm />
-            <Footer />
         </div>
     );
 }
