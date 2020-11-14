@@ -12,15 +12,16 @@
     margin: 0;
   }
   button {
-    width: 20%;
+    width: 15%;
   }
 }
 
 .home__instruction__header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  padding-top: 2rem;
   h2 {
     font-size: 38px;
     padding-bottom: 1rem;
@@ -29,7 +30,11 @@
 
 .home__instruction__main {
   display: flex;
-  width: 80%;
+  width: 100%;
+  background-color: #F0F1F1;
+  height: 45%;
+  align-items: center;
+  padding: 0 10%;
 }
 
 .home__instruction__main__content {

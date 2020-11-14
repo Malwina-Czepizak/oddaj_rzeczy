@@ -12,7 +12,9 @@
 .home__about__text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 4.5rem 4rem;
+  background-color: #F0F1F1;
   h2 {
     margin: 0 auto;
     font-size: 38px;
@@ -20,6 +22,7 @@
   p {
     font-size: 30px;
     line-height: 54px;
+    padding: 0 3rem;
   }
   .signature {
     margin: 1rem 0 0 70%;

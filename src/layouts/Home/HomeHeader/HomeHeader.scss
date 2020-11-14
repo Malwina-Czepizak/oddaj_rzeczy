@@ -21,7 +21,7 @@
 }
 
 .home__header__introduction {
-  margin: 2rem 7rem 2rem 1rem;
+  margin: 0 7rem 2rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +30,7 @@
 
 .home__buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 p {
@@ -40,8 +40,9 @@ p {
 }
 
 button {
-  width: 46%;
-  padding: 1em;
+  width: 30%;
+  padding: 0.5em 1em;
+  margin: 3%;
 }
 
 img {
